@@ -17,6 +17,7 @@
  *    along with RoboComp.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "specificworker.h"
+#include <qt4/QtCore/qdebug.h>
 
 /**
 * \brief Default constructor
@@ -48,6 +49,32 @@ bool SpecificWorker::setParams(RoboCompCommonBehavior::ParameterList params)
 
 void SpecificWorker::compute()
 {
+ 
+  
+  float umbral =300;
+  
+  TLaserData data =laser_proxy->getLaserData();
+
+  
+   std::sort(data.begin()+15, data.end()-15, [](TData a, TData b) {
+        return a.dist < b.dist;   
+    });
+   
+   float frente = data[20].dist;
+   
+  
+   qDebug("Frente %f: Umbral:%f\n",frente, umbral);
+   
+   if(frente<umbral){
+
+     differentialrobot_proxy->setSpeedBase(2,0.3);
+   
+   usleep(rand()%(1000000-100000+1) + 100000);
+     
+  }else
+   differentialrobot_proxy->setSpeedBase(300,0);
+   
+   
 // 	try
 // 	{
 // 		camera_proxy->getYImage(0,img, cState, bState);
