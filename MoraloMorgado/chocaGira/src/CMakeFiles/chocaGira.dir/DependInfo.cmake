@@ -1,35 +1,51 @@
 # The set of languages for which implicit dependencies are needed:
-set(CMAKE_DEPENDS_LANGUAGES
+SET(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CommonBehavior.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/CommonBehavior.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/DifferentialRobot.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/DifferentialRobot.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/Laser.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/Laser.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/chocaGira_automoc.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/chocaGira_automoc.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/commonbehaviorI.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/commonbehaviorI.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/genericmonitor.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/genericmonitor.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/genericworker.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/genericworker.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/main.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/main.cpp.o"
-  "/opt/robocomp/classes/qlog/qlog.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/opt/robocomp/classes/qlog/qlog.cpp.o"
-  "/opt/robocomp/classes/rapplication/rapplication.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/opt/robocomp/classes/rapplication/rapplication.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/specificmonitor.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/specificmonitor.cpp.o"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/specificworker.cpp" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/specificworker.cpp.o"
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CommonBehavior.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/CommonBehavior.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/DifferentialRobot.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/DifferentialRobot.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/Laser.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/Laser.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/RCISMousePicker.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/RCISMousePicker.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/chocaGira_automoc.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/chocaGira_automoc.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/commonbehaviorI.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/commonbehaviorI.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/genericmonitor.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/genericmonitor.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/genericworker.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/genericworker.cpp.o"
+  "/home/pablo/robocomp/classes/qlog/qlog.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/home/pablo/robocomp/classes/qlog/qlog.cpp.o"
+  "/home/pablo/robocomp/classes/rapplication/rapplication.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/home/pablo/robocomp/classes/rapplication/rapplication.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/main.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/main.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/rcismousepickerI.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/rcismousepickerI.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/specificmonitor.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/specificmonitor.cpp.o"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/specificworker.cpp" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir/specificworker.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
+SET(CMAKE_TARGET_DEFINITIONS
   "QT_CORE_LIB"
   "QT_DLL"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_OPENGL_LIB"
   "QT_XML_LIB"
   )
 
+# Pairs of files generated by the same build rule.
+SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CommonBehavior.h" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CommonBehavior.cpp"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/DifferentialRobot.h" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/DifferentialRobot.cpp"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/Laser.h" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/Laser.cpp"
+  "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/RCISMousePicker.h" "/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/RCISMousePicker.cpp"
+  )
+
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
 # The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/qt4"
   "/usr/include/qt4/QtOpenGL"
   "/usr/include/qt4/QtGui"
@@ -40,23 +56,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/robocomp/include"
   "/classes"
   "."
-  "/opt/robocomp/classes"
-  "/opt/robocomp/libs"
-  "/opt/robocomp/interfaces"
+  "/home/pablo/robocomp/classes"
+  "/home/pablo/robocomp/libs"
+  "/home/pablo/robocomp/interfaces"
   "/include"
   )
-
-# Pairs of files generated by the same build rule.
-set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CommonBehavior.h" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/CommonBehavior.cpp"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/DifferentialRobot.h" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/DifferentialRobot.cpp"
-  "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/Laser.h" "/home/salabeta/robocomp/components/MoraloMorgado/chocaGira/src/Laser.cpp"
-  )
-
-
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  )
-
-# Fortran module output directory.
-set(CMAKE_Fortran_TARGET_MODULE_DIR "")
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

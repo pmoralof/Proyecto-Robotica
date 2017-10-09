@@ -4,7 +4,7 @@
  *    This file is part of RoboComp
  *
  *    RoboComp is free software: you can redistribute it and/or modify
- *    it under the terms of the GNU General Public License as published by
+ *    it under the terms of t		he GNU General Public License as published by
  *    the Free Software Foundation, either version 3 of the License, or
  *    (at your option) any later version.
  *
@@ -38,15 +38,52 @@ class SpecificWorker : public GenericWorker
 {
 Q_OBJECT
 public:
+  
 	SpecificWorker(MapPrx& mprx);	
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
-
-
+	
+	void setPick(const Pick &myPick);
+	
+	
+	
 public slots:
-	void compute(); 	
+
+	void compute();
 
 private:
+  
+	struct Target
+	{
+	  bool active=false;
+	  mutable QMutex mutex;
+	  QVec aux = QVec::zeros(3);
+	  
+	  bool isActive(){
+	    return active;
+	  }
+	  void setActive(bool act){
+	    QMutexLocker lm(&mutex);
+	    active = act;
+	  }
+	  void copy(float x, float z){
+	    QMutexLocker lm(&mutex);
+	    aux.setItem(0,x);
+	    aux.setItem(1,0);
+	    aux.setItem(2,z);
+	  }
+	  QVec getAux(){
+	    QMutexLocker lm(&mutex);
+	    return aux;
+	  }
+	};
+	
+	InnerModel* innerModel;
+	Target pick;
+	QLine2D linea;
+	
+
+
 	
 };
 

@@ -1,0 +1,2 @@
+/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira.dir
+/home/pablo/robocomp/components/Proyecto-Robotica/MoraloMorgado/chocaGira/src/CMakeFiles/chocaGira_automoc.dir
